@@ -1,0 +1,7 @@
+description: Create a string, an array, and a hashtable in PowerShell. Print each
+  of them using Write-Output.
+difficulty: Beginner
+id: powershell-basics-6
+title: Mastering Variables
+tutorialId: powershell-basics-6
+xp: 100

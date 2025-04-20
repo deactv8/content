@@ -1,0 +1,7 @@
+description: Write a for loop that counts to 5, a foreach loop that iterates over
+  an array, and a while loop that runs while a value is less than 3.
+difficulty: Beginner
+id: powershell-basics-9
+title: Loop Logic
+tutorialId: powershell-basics-9
+xp: 150

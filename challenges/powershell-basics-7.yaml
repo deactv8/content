@@ -1,0 +1,7 @@
+description: Practice writing output using Write-Host and formatting with -ForegroundColor
+  and -BackgroundColor.
+difficulty: Beginner
+id: powershell-basics-7
+title: Output Formatting
+tutorialId: powershell-basics-7
+xp: 125

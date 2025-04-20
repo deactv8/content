@@ -1,0 +1,11 @@
+id: powershell-basics-4
+title: Discover Commands and Members
+description: |
+  Use Get-Command to find commands that include "process" in the name.
+  Then use Get-Member to inspect the output of Get-Process.
+xp: 100
+difficulty: Beginner
+tutorialId: powershell-basics-4
+script: |
+  Get-Command *process*
+  Get-Process | Get-Member

@@ -1,0 +1,10 @@
+id: powershell-basics-2
+title: Using Cmdlets
+description: |
+  Let's practice using cmdlets. List all services on your system using Get-Service.
+  Then filter the output to only show services that are running.
+xp: 75
+difficulty: Beginner
+tutorialId: powershell-basics-2
+script: |
+  Get-Service | Where-Object { $_.Status -eq "Running" }

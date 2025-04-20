@@ -1,0 +1,10 @@
+id: powershell-basics-5
+title: Pipeline Practice
+description: |
+  Use PowerShell's object pipeline to list processes, sort them by CPU usage,
+  and display only the top 3.
+xp: 100
+difficulty: Beginner
+tutorialId: powershell-basics-5
+script: |
+  Get-Process | Sort-Object CPU -Descending | Select-Object -First 3

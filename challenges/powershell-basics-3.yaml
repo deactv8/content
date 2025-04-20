@@ -1,0 +1,10 @@
+id: powershell-basics-3
+title: Get Help with Commands
+description: |
+  Learn how to use Get-Help. Get help for the Get-Process command.
+  Then try using Show-Command (if supported on your system).
+xp: 75
+difficulty: Beginner
+tutorialId: powershell-basics-3
+script: |
+  Get-Help Get-Process

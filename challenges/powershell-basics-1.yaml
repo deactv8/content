@@ -1,0 +1,10 @@
+id: powershell-basics-1
+title: Open PowerShell
+description: |
+  Your first challenge is simple — open PowerShell and run your first command.
+  Use the `Write-Host` cmdlet to print "Hello, PowerShell!" to the console.
+xp: 50
+difficulty: Beginner
+tutorialId: powershell-basics-1
+script: |
+  Write-Host "Hello, PowerShell!"

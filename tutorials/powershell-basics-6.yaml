@@ -1,0 +1,14 @@
+id: powershell-basics-6
+title: Variables & Types
+description: Learn to use variables, arrays, and hashtables.
+xp: 100
+difficulty: Beginner
+steps:
+- id: string-variable
+  title: Create a Variable
+  instruction: Set a variable like `$name = 'PowerShell'`.
+  command: $name = 'PowerShell'
+  hint: Use `$` prefix to create variables.
+  validation:
+    type: contains
+    value: PowerShell

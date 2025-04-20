@@ -1,8 +1,0 @@
-{
-  "id": "powershell-basics-6",
-  "title": "Variables & Types",
-  "description": "Learn to use variables, arrays, and hashtables.",
-  "xp": 100,
-  "difficulty": "Beginner",
-  "content": "powershell-basics-6.ps1"
-}

@@ -1,0 +1,14 @@
+id: powershell-basics-7
+title: Output Like a Pro
+description: Write and format output effectively using PowerShell.
+xp: 125
+difficulty: Beginner
+steps:
+- id: write-output
+  title: Write Output
+  instruction: Use `Write-Output "This is great!"` to display a message.
+  command: Write-Output "This is great!"
+  hint: Use `Write-Output` to print text.
+  validation:
+    type: contains
+    value: great

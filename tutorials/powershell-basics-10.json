@@ -1,8 +1,0 @@
-{
-  "id": "powershell-basics-10",
-  "title": "Scripts, Profiles, and Beyond",
-  "description": "Learn about scripts, profiles, and configuring your PowerShell environment.",
-  "xp": 150,
-  "difficulty": "Beginner",
-  "content": "powershell-basics-10.ps1"
-}

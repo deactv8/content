@@ -1,8 +1,0 @@
-- expectedCommand: foreach ($name in @('Alice','Bob')) { Write-Host $name }
-  hint: Use foreach with an array of names.
-  instruction: 'Create a loop to print each name in an array: `foreach ($name in @(''Alice'',''Bob''))
-    { Write-Host $name }`'
-  title: Loop Through a List
-  validateOutputIncludes:
-  - Alice
-  - Bob

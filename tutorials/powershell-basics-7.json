@@ -1,8 +1,0 @@
-{
-  "id": "powershell-basics-7",
-  "title": "Output Like a Pro",
-  "description": "Write and format output effectively using PowerShell.",
-  "xp": 125,
-  "difficulty": "Beginner",
-  "content": "powershell-basics-7.ps1"
-}

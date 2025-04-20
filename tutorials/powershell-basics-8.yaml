@@ -1,0 +1,20 @@
+id: powershell-basics-8
+title: Conditions & Control Flow
+description: Use if, else, and switch statements to control logic.
+xp: 125
+difficulty: Beginner
+steps:
+- id: if-statement
+  title: Try an If Statement
+  instruction: 'Run a basic if block:
+
+    ```powershell
+
+    if ($true) { Write-Host ''Yes'' }
+
+    ```'
+  command: if ($true) { Write-Host 'Yes' }
+  hint: Remember to use curly braces.
+  validation:
+    type: contains
+    value: 'Yes'

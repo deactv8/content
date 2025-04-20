@@ -1,8 +1,0 @@
-{
-  "id": "powershell-basics-5",
-  "title": "Working With Objects",
-  "description": "Understand PowerShell's object pipeline with real examples.",
-  "xp": 100,
-  "difficulty": "Beginner",
-  "content": "powershell-basics-5.ps1"
-}

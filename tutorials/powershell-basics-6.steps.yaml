@@ -1,8 +1,0 @@
-- expectedCommand: $greeting = 'PowerShell is awesome!'
-  hint: Use `$variable = 'value'` syntax.
-  instruction: Create a variable called `$greeting` and assign it your favorite phrase.
-  title: Create a String Variable
-- expectedCommand: Write-Host $greeting
-  hint: Use Write-Host with the variable name.
-  instruction: Use `Write-Host $greeting` to print your greeting to the screen.
-  title: Print Your Greeting

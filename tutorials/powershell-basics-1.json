@@ -1,8 +1,0 @@
-{
-  "id": "powershell-basics-1",
-  "title": "What Is PowerShell, Really?",
-  "description": "Learn what PowerShell is, where it came from, and how to open it.",
-  "xp": 50,
-  "difficulty": "Beginner",
-  "content": "powershell-basics-1.ps1"
-}

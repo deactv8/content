@@ -1,8 +1,0 @@
-{
-  "id": "powershell-basics-3",
-  "title": "Getting Help the Right Way",
-  "description": "Explore how to use Get-Help and Show-Command like a pro.",
-  "xp": 75,
-  "difficulty": "Beginner",
-  "content": "powershell-basics-3.ps1"
-}

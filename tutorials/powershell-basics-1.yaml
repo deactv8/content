@@ -1,0 +1,30 @@
+id: powershell-basics-1
+title: What Is PowerShell, Really?
+description: Learn what PowerShell is, where it came from, and how to open it.
+xp: 50
+difficulty: Beginner
+steps:
+- id: intro
+  title: Welcome to PowerShell
+  instruction: PowerShell is a cross-platform task automation framework from Microsoft.
+  command: $PSVersionTable
+  hint: Run `$PSVersionTable` to see your current PowerShell version.
+  validation:
+    type: contains
+    value: PSVersion
+- id: whoami
+  title: Who Are You?
+  instruction: Let's run a command to print your username.
+  command: whoami
+  hint: Try typing `whoami` to find out your current user.
+  validation:
+    type: contains
+    value: \
+- id: write-host
+  title: Say Hello to PowerShell
+  instruction: "Let\u2019s try outputting something to the console using `Write-Host`."
+  command: "Write-Host \"I\u2019m ready to master PowerShell!\""
+  hint: Make sure to include the quotation marks.
+  validation:
+    type: exact
+    value: "I\u2019m ready to master PowerShell!"

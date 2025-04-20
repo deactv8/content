@@ -1,0 +1,22 @@
+id: powershell-basics-4
+title: Finding What You Need
+description: Discover commands and properties with Get-Command and Get-Member.
+xp: 100
+difficulty: Beginner
+steps:
+- id: get-command
+  title: Finding Commands
+  instruction: Use `Get-Command` to find commands that contain 'process'.
+  command: Get-Command *process*
+  hint: Try wildcards like `*` when searching.
+  validation:
+    type: contains
+    value: Get-Process
+- id: get-member
+  title: Inspecting Output
+  instruction: Use `Get-Process | Get-Member` to explore object members.
+  command: Get-Process | Get-Member
+  hint: Use `| Get-Member` after another command.
+  validation:
+    type: contains
+    value: TypeName

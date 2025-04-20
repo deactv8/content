@@ -1,0 +1,8 @@
+- expectedCommand: Get-Service | Format-Table Name,Status
+  hint: Pipe into Format-Table and specify properties.
+  instruction: Use `Get-Service | Format-Table Name,Status` to display just the name
+    and status.
+  title: Format Output with Format-Table
+  validateOutputIncludes:
+  - Name
+  - Status

@@ -1,0 +1,11 @@
+- expectedCommand: Get-Help Get-Process
+  hint: Start with Get-Help followed by the command name.
+  instruction: Use `Get-Help Get-Process` to see help info about the Get-Process command.
+  title: Get Help with Get-Process
+  validateOutputIncludes:
+  - NAME
+  - SYNTAX
+- expectedCommand: Show-Command Get-Process
+  hint: Use Show-Command for a GUI-based parameter entry.
+  instruction: If you're using Windows, try running `Show-Command Get-Process`.
+  title: Try Show-Command (Optional)

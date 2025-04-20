@@ -1,0 +1,9 @@
+- expectedCommand: '$num = 10
+
+    if ($num -gt 5) { Write-Host ''Greater than 5'' }'
+  hint: Use `if (<condition>) { <action> }` format.
+  instruction: Declare a variable `$num = 10` and check if it’s greater than 5 using
+    an if-statement.
+  title: Use an If Statement
+  validateOutputIncludes:
+  - Greater than 5

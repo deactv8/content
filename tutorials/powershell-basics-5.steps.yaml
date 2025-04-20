@@ -1,0 +1,9 @@
+- expectedCommand: Get-Process | Sort-Object CPU -Descending | Select-Object -First
+    3
+  hint: Sort by CPU and select only the first 3 entries.
+  instruction: Use the pipeline to sort by CPU and select top 3 results.
+  title: List Top 3 CPU Processes
+  validateOutputIncludes:
+  - Handles
+  - NPM(K)
+  - CPU

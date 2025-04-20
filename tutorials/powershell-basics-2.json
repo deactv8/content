@@ -1,0 +1,8 @@
+{
+  "id": "powershell-basics-2",
+  "title": "Talking to the Shell",
+  "description": "Understand cmdlets, their structure, and how PowerShell talks.",
+  "xp": 75,
+  "difficulty": "Beginner",
+  "content": "powershell-basics-2.ps1"
+}

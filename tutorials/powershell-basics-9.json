@@ -1,0 +1,8 @@
+{
+  "id": "powershell-basics-9",
+  "title": "Loops & Iteration",
+  "description": "Master loops: for, foreach, while, and more.",
+  "xp": 150,
+  "difficulty": "Beginner",
+  "content": "powershell-basics-9.ps1"
+}

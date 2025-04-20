@@ -1,0 +1,8 @@
+{
+  "id": "powershell-basics-4",
+  "title": "Finding What You Need",
+  "description": "Discover commands and properties with Get-Command and Get-Member.",
+  "xp": 100,
+  "difficulty": "Beginner",
+  "content": "powershell-basics-4.ps1"
+}

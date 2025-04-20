@@ -1,0 +1,8 @@
+{
+  "id": "powershell-basics-8",
+  "title": "Conditions & Control Flow",
+  "description": "Use if, else, and switch statements to control logic.",
+  "xp": 125,
+  "difficulty": "Beginner",
+  "content": "powershell-basics-8.ps1"
+}

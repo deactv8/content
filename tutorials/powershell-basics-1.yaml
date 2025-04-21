@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: intro
   title: Welcome to PowerShell
-  instruction: PowerShell is a cross-platform task automation framework from Microsoft.
+  instructions: PowerShell is a cross-platform task automation framework from Microsoft.
   command: $PSVersionTable
   hint: Run `$PSVersionTable` to see your current PowerShell version.
   validation:
@@ -14,7 +14,7 @@ steps:
     value: PSVersion
 - id: whoami
   title: Who Are You?
-  instruction: Let's run a command to print your username.
+  instructions: Let's run a command to print your username.
   command: whoami
   hint: Try typing `whoami` to find out your current user.
   validation:
@@ -22,7 +22,7 @@ steps:
     value: \
 - id: write-host
   title: Say Hello to PowerShell
-  instruction: "Let\u2019s try outputting something to the console using `Write-Host`."
+  instructions: "Let\u2019s try outputting something to the console using `Write-Host`."
   command: "Write-Host \"I\u2019m ready to master PowerShell!\""
   hint: Make sure to include the quotation marks.
   validation:

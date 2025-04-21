@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: if-statement
   title: Try an If Statement
-  instruction: 'Run a basic if block:
+  instructions: 'Run a basic if block:
 
     ```powershell
 

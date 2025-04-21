@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: get-help
   title: Get Help
-  instruction: Use `Get-Help` to learn more about commands. Try `Get-Help Get-Process`.
+  instructions: Use `Get-Help` to learn more about commands. Try `Get-Help Get-Process`.
   command: Get-Help Get-Process
   hint: Try `Get-Help` followed by a command name.
   validation:
@@ -14,7 +14,7 @@ steps:
     value: NAME
 - id: show-command
   title: Graphical Command Builder
-  instruction: Try using `Show-Command Get-Process` (on supported systems).
+  instructions: Try using `Show-Command Get-Process` (on supported systems).
   command: Show-Command Get-Process
   hint: Not all systems support this. Try it anyway.
   validation:

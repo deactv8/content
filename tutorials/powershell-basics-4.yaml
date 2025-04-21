@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: get-command
   title: Finding Commands
-  instruction: Use `Get-Command` to find commands that contain 'process'.
+  instructions: Use `Get-Command` to find commands that contain 'process'.
   command: Get-Command *process*
   hint: Try wildcards like `*` when searching.
   validation:
@@ -14,7 +14,7 @@ steps:
     value: Get-Process
 - id: get-member
   title: Inspecting Output
-  instruction: Use `Get-Process | Get-Member` to explore object members.
+  instructions: Use `Get-Process | Get-Member` to explore object members.
   command: Get-Process | Get-Member
   hint: Use `| Get-Member` after another command.
   validation:

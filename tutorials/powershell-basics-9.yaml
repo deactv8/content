@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: foreach-loop
   title: Use a Loop
-  instruction: 'Loop through items: `foreach ($x in 1..3) { Write-Host $x }`'
+  instructions: 'Loop through items: `foreach ($x in 1..3) { Write-Host $x }`'
   command: foreach ($x in 1..3) { Write-Host $x }
   hint: Try looping from 1 to 3.
   validation:

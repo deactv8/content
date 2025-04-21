@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: select-object
   title: Select Specific Properties
-  instruction: Run `Get-Process | Select-Object Name,CPU` to focus on specific data.
+  instructions: Run `Get-Process | Select-Object Name,CPU` to focus on specific data.
   command: Get-Process | Select-Object Name,CPU
   hint: Use `Select-Object` to filter displayed properties.
   validation:

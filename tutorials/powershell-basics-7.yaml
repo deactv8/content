@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: write-output
   title: Write Output
-  instruction: Use `Write-Output "This is great!"` to display a message.
+  instructions: Use `Write-Output "This is great!"` to display a message.
   command: Write-Output "This is great!"
   hint: Use `Write-Output` to print text.
   validation:

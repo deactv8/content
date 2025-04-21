@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: string-variable
   title: Create a Variable
-  instruction: Set a variable like `$name = 'PowerShell'`.
+  instructions: Set a variable like `$name = 'PowerShell'`.
   command: $name = 'PowerShell'
   hint: Use `$` prefix to create variables.
   validation:

@@ -6,7 +6,7 @@ difficulty: Beginner
 steps:
 - id: structure
   title: Understanding Cmdlets
-  instruction: "Cmdlets are PowerShell\u2019s built-in commands. Try running `Get-Process`."
+  instructions: "Cmdlets are PowerShell\u2019s built-in commands. Try running `Get-Process`."
   command: Get-Process
   hint: Type `Get-Process` and press Enter.
   validation:
@@ -14,7 +14,7 @@ steps:
     value: Handles
 - id: pipe
   title: Using the Pipeline
-  instruction: Use the pipeline to pass output. Sort processes by memory usage.
+  instructions: Use the pipeline to pass output. Sort processes by memory usage.
   command: Get-Process | Sort-Object WorkingSet -Descending
   hint: Use `|` to connect commands together.
   validation:
